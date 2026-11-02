@@ -1,4 +1,4 @@
-const nomes = ["Lucas Leao", "Nicola Tesla", "Kyle Rayner", "Matt Murdock"];
+const nomes = ["Lucas Leao", "Jeanne Alter", "Kyle Rayner", "Matt Murdock"];
 
 export default function Home() {
   return (
