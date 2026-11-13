@@ -1,7 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Confetti from "react-confetti";
+import dynamic from "next/dynamic";
+
+const Confetti = dynamic(
+  () => import("react-confetti").catch(() => () => null),
+  { ssr: false },
+);
 
 export default function Confete() {
   const [tamanho, setTamanho] = useState(null);
