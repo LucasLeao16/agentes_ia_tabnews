@@ -18,8 +18,13 @@ Implementação do [TabNews](https://www.tabnews.com.br) utilizando agentes de I
 - `npm run dev` — inicia o servidor de desenvolvimento
 - `npm run build` — gera o build de produção
 - `npm start` — inicia o servidor de produção (após o build)
+- `npm run lint` — verifica o código com ESLint
+- `npm run lint:fix` — corrige automaticamente o que o ESLint conseguir
+- `npm run format` — formata os arquivos com Prettier
+- `npm run format:check` — verifica a formatação sem alterar arquivos
 
 ## Convenções
 
 - Escreva textos da interface, commits e documentação em português.
 - Mantenha as mudanças pequenas e focadas no que foi pedido.
+- Antes de concluir uma tarefa, rode `npm run format` e `npm run lint`.
